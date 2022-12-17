@@ -9,7 +9,7 @@ promotionRouter
     next();
   })
   .get((req, res) => {
-    res.end("Will send all the promotions to you");
+    res.end("Will send all the promotionss to you");
   })
   .post((req, res) => {
     res.end(
